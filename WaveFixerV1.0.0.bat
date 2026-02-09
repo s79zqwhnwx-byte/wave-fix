@@ -6,8 +6,8 @@ setlocal EnableExtensions EnableDelayedExpansion
 ::  This utility provides automatic fixes for common Wave client issues
 ::  and ensures optimal system configuration for Roblox Wave.
 set "CURRENT_VER=1.0.0"
-set "RAW_VER=https://raw.githubusercontent.com/redyfoxsyr0/Fixwater/refs/heads/main/version.txt"
-set "RAW_BAT=https://raw.githubusercontent.com/redyfoxsyr0/Fixwater/refs/heads/main/FixWave.bat"
+set "RAW_VER=https://github.com/s79zqwhnwx-byte/wave-fix/edit/main/version.txt"
+set "RAW_BAT=https://github.com/s79zqwhnwx-byte/wave-fix/blob/main/WaveFixerV1.0.0.bat"
 for /f "delims=" %%D in ('powershell -NoProfile -Command "[Environment]::GetFolderPath('Desktop')"') do set "DESKTOP=%%D"
 set "NEWFILE=%DESKTOP%\WaveFixer.bat"
 set "LATEST_VER="
